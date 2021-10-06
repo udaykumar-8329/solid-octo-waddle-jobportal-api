@@ -21,7 +21,7 @@ const applicationSchema = new Schema({
     },
     resume: {
         type: String,
-        required: true
+        required: false
     },
     jobId:{
         type: Schema.Types.ObjectId,
