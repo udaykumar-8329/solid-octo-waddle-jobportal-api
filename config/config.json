@@ -1,13 +1,13 @@
 {
-    "development": {
-        "PORT": 3000,
-        "MONGODB_URI": "mongodb+srv://uday:uday@cluster0.t5s4n.mongodb.net/jobportaltest?authSource=admin&replicaSet=atlas-r5k0nj-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true",
-        "JWT_SECRET": "SECRET#123",
-        "JWT_EXP": "2h"
-    },
-    "production": {
-        "MONGODB_URI": "mongodb+srv://uday:uday@cluster0.t5s4n.mongodb.net/jobportaltest?authSource=admin&replicaSet=atlas-r5k0nj-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true",
-        "JWT_SECRET": "SECRET#123",
-        "JWT_EXP": "200h"
-    }
+  "development": {
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb+srv://uday:uday@cluster0.t5s4n.mongodb.net/jobportaltest?authSource=admin&replicaSet=atlas-r5k0nj-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true",
+    "JWT_SECRET": "SECRET#123",
+    "JWT_EXP": "2h"
+  },
+  "production": {
+    "MONGODB_URI": "mongodb+srv://uday:uday@cluster0.t5s4n.mongodb.net/jobportaltest?authSource=admin&replicaSet=atlas-r5k0nj-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true",
+    "JWT_SECRET": "SECRET#123",
+    "JWT_EXP": "200h"
+  }
 }
