@@ -15,8 +15,10 @@ app.use(bodyParser.json());
 app.use(cors());
 app.use(passport.initialize());
 
+app.use(express.static('./dist/frontend'));
+
 app.get('/',(req,res)=>{
-    res.status(200).send({"name":"uday kumar thota"});
+    res.sendFile(path.join(__dirname, '/dist/frontend/index.html'));
 })
 
 // error handler
